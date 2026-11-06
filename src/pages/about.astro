@@ -1,0 +1,20 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../consts';
+---
+<Page title="About" eyebrow={`Since ${SITE.founded}`} description="Strip and Street is a car-culture brand for enthusiasts who build, wrench and drive their own projects.">
+  <p><strong>Strip and Street started in {SITE.founded} as a place to celebrate the cars people actually build.</strong> Not just the six-figure show cars, but the driveway projects, the budget builds, and the daily drivers with one too many mods.</p>
+  <p>It grew into a community of more than 150,000 enthusiasts across Instagram and Facebook. This site is where we go deeper: buyer’s guides that tell you what to look for before you hand over cash, how-tos you can follow on a garage floor, honest takes on parts and gear, and stories from car culture.</p>
+  <h2>What you’ll find here</h2>
+  <ul>
+    <li><strong>Buyer’s guides:</strong> what to buy, what to avoid, and what to pay.</li>
+    <li><strong>Builds:</strong> project cars from rough to road-ready.</li>
+    <li><strong>How-to:</strong> practical guides for doing the work yourself.</li>
+    <li><strong>Gear &amp; parts:</strong> what’s worth your money and what isn’t.</li>
+    <li><strong>Car culture:</strong> scenes, history, and the people behind the wheel.</li>
+  </ul>
+  <h2>How we make money</h2>
+  <p>Strip and Street is supported by ads and affiliate links. When you buy through some links on the site, we may earn a small commission at no extra cost to you. It never decides what we recommend. <a href="/affiliate-disclosure/">Read our affiliate disclosure</a>.</p>
+  <h2>Get in touch</h2>
+  <p>Got a build you want featured, a correction, or a partnership idea? <a href="/contact/">Contact us</a>, or find us on <a href={SITE.facebook}>Facebook</a>.</p>
+</Page>

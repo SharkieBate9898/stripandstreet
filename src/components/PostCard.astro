@@ -1,0 +1,33 @@
+---
+import type { Post } from '../lib/posts';
+import { categoryBySlug } from '../consts';
+import { formatDate, readingTime } from '../lib/posts';
+import PostArt from './PostArt.astro';
+interface Props { post: Post; layout?: 'stack' | 'row' }
+const { post, layout = 'stack' } = Astro.props;
+const d = post.data;
+const cat = categoryBySlug(d.category);
+---
+<article class:list={['card', 'lift', layout]} style={`--cat:${cat.color}`}>
+  <a href={`/${post.id}/`} class="media" tabindex="-1" aria-hidden="true">
+    <PostArt title={d.title} category={d.category} image={d.heroImage} alt={d.heroAlt} />
+  </a>
+  <div class="body">
+    <a class="cat-chip" href={`/category/${cat.slug}/`}>{cat.name}</a>
+    <h3><a href={`/${post.id}/`}>{d.title}</a></h3>
+    <p class="desc">{d.description}</p>
+    <p class="meta"><time datetime={d.pubDate.toISOString()}>{formatDate(d.pubDate)}</time> · {readingTime(post.body)} min read</p>
+  </div>
+</article>
+<style>
+  .card { display: grid; gap: 16px; align-content: start; }
+  .card.row { grid-template-columns: 180px 1fr; gap: 18px; align-items: start; }
+  .card.row .desc { display: none; }
+  .card.row h3 { font-size: 19px; }
+  .body { display: grid; gap: 8px; }
+  h3 { margin: 0; font-family: var(--font-display); font-stretch: 85%; font-weight: 800; font-size: 23px; line-height: 1.12; }
+  h3 a { text-decoration: none; }
+  .desc { margin: 0; color: var(--chalk-dim); font-size: 15.5px; }
+  .meta { margin: 0; font-family: var(--font-mono); font-size: 12px; color: var(--chalk-mute); }
+  @media (max-width: 520px) { .card.row { grid-template-columns: 120px 1fr; } }
+</style>

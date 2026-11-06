@@ -1,0 +1,65 @@
+---
+// Shows the post's hero photo, or a branded graphic when no photo is set.
+import { categoryBySlug } from '../consts';
+interface Props {
+  title: string;
+  category: string;
+  image?: string;
+  alt?: string;
+  size?: 'card' | 'hero';
+  eager?: boolean;
+}
+const { title, category, image, alt, size = 'card', eager = false } = Astro.props;
+const cat = categoryBySlug(category);
+// Pick a short, punchy word from the title for the graphic.
+const stop = new Set(['the','a','an','and','or','vs','for','to','of','your','what','how','which','that','with','is','it','one','should','you','buy','best','won’t','won\'t','under']);
+const words = title.replace(/[^\p{L}\p{N}’' ]/gu, ' ').split(/\s+/).filter((w) => w && !stop.has(w.toLowerCase()));
+const big = (words.sort((a, b) => b.length - a.length)[0] || cat.name).slice(0, 11);
+// Unsplash images: request a smaller file for cards, a larger one for the hero.
+const w = size === 'hero' ? 1600 : 800;
+const src = image && image.includes('images.unsplash.com') ? image.replace(/([?&])w=\d+/, `$1w=${w}`) : image;
+---
+<div class:list={['art', size]} style={`--cat:${cat.color}`}>
+  {image ? (
+    <img src={src} alt={alt || title} loading={eager ? 'eager' : 'lazy'} decoding="async" width="1200" height="675" />
+  ) : (
+    <div class="gfx" role="img" aria-label={alt || title}>
+      <span class="stripes"></span>
+      <span class="word" style={`--n:${big.length}`}>{big}</span>
+      <span class="tag">{cat.name}</span>
+    </div>
+  )}
+</div>
+<style>
+  .art { container-type: inline-size; position: relative; aspect-ratio: 16 / 9; overflow: hidden; border-radius: var(--radius); background: var(--asphalt-3); }
+  .art img { width: 100%; height: 100%; object-fit: cover; }
+  .gfx {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(120% 90% at 85% 10%, color-mix(in srgb, var(--cat) 28%, transparent), transparent 60%),
+      linear-gradient(160deg, #1b1b1f, #0f0f12);
+  }
+  .gfx::after {
+    content: ''; position: absolute; inset: 0; opacity: 0.35;
+    background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 40px 40px;
+    mask-image: linear-gradient(180deg, transparent, #000 70%);
+  }
+  .stripes {
+    position: absolute; left: -10%; right: -10%; bottom: 22%; height: 18%;
+    background: repeating-linear-gradient(-45deg, var(--cat) 0 14px, transparent 14px 28px);
+    transform: rotate(-8deg); opacity: 0.9; z-index: 1;
+  }
+  .word {
+    position: absolute; left: 6%; bottom: 8%; right: 4%; z-index: 2;
+    font-family: var(--font-display); font-stretch: 62%; font-weight: 900; text-transform: uppercase;
+    font-size: min(26cqw, calc(170cqw / var(--n))); line-height: 0.85; color: var(--asphalt);
+    -webkit-text-stroke: 2px var(--chalk); white-space: nowrap; overflow: hidden; text-overflow: clip;
+  }
+  .tag {
+    position: absolute; top: 7%; left: 6%; z-index: 2; font-family: var(--font-mono); font-size: 11px;
+    letter-spacing: 0.16em; text-transform: uppercase; background: var(--cat); color: #0d0d0f; padding: 4px 9px; font-weight: 500;
+  }
+  .hero .word { -webkit-text-stroke-width: 3px; }
+  @container (max-width: 240px) { .tag { display: none; } .word { -webkit-text-stroke-width: 1.5px; } }
+</style>

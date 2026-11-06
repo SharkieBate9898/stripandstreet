@@ -1,0 +1,48 @@
+---
+import { MAILCHIMP_ACTION } from '../consts';
+interface Props { compact?: boolean }
+const { compact = false } = Astro.props;
+---
+<section class:list={['newsletter', { compact }]} aria-labelledby="nl-title">
+  <div class="copy">
+    <p class="eyebrow">The Strip and Street newsletter</p>
+    <h2 id="nl-title" class="display">Get the good stuff in your inbox</h2>
+    <p class="sub">New builds, buyer’s guides and garage tips, once a week. No spam, unsubscribe anytime.</p>
+  </div>
+  {MAILCHIMP_ACTION ? (
+    <form action={MAILCHIMP_ACTION} method="post" target="_blank" class="form">
+      <label for="nl-email" class="sr">Email address</label>
+      <input id="nl-email" type="email" name="EMAIL" placeholder="you@example.com" required autocomplete="email" />
+      <button class="btn" type="submit">Subscribe</button>
+    </form>
+  ) : (
+    <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="company" action="/thanks/" class="form">
+      <input type="hidden" name="form-name" value="newsletter" />
+      <p hidden><label>Leave blank <input name="company" /></label></p>
+      <label for="nl-email" class="sr">Email address</label>
+      <input id="nl-email" type="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+      <button class="btn" type="submit">Subscribe</button>
+    </form>
+  )}
+</section>
+<style>
+  .newsletter {
+    position: relative; overflow: hidden;
+    display: grid; grid-template-columns: 1.3fr 1fr; gap: 28px; align-items: center;
+    background: var(--asphalt-2); border: 1px solid var(--line); border-left: 6px solid var(--signal);
+    padding: clamp(24px, 4vw, 44px); border-radius: var(--radius);
+  }
+  .newsletter h2 { font-size: clamp(30px, 4vw, 46px); margin: 8px 0 10px; }
+  .sub { color: var(--chalk-dim); margin: 0; }
+  .eyebrow { margin: 0; }
+  .form { display: flex; gap: 10px; flex-wrap: wrap; }
+  input {
+    flex: 1 1 200px; min-width: 0; font: inherit; color: var(--chalk);
+    background: var(--asphalt); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px;
+  }
+  input:focus { border-color: var(--signal); outline: none; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .compact { grid-template-columns: 1fr; }
+  .compact h2 { font-size: 32px; }
+  @media (max-width: 760px) { .newsletter { grid-template-columns: 1fr; } }
+</style>

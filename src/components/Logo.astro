@@ -1,0 +1,9 @@
+---
+interface Props { height?: number; eager?: boolean }
+const { height = 64, eager = true } = Astro.props;
+const width = Math.round((height * 413) / 317);
+---
+<img class="logo" src="/logo.png" alt="Strip and Street" width={width} height={height} style={`height:${height}px`} loading={eager ? 'eager' : 'lazy'} decoding="async" />
+<style>
+  .logo { display: block; width: auto; }
+</style>

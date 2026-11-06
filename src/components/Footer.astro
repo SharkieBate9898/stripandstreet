@@ -1,0 +1,45 @@
+---
+import { SITE, CATEGORIES } from '../consts';
+import Logo from './Logo.astro';
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap cols">
+    <div class="about">
+      <Logo height={110} eager={false} />
+      <p>{SITE.description}</p>
+      <div class="social">
+        <a href={SITE.facebook} rel="me noopener" target="_blank">Facebook</a>
+        <a href={SITE.instagram} rel="me noopener" target="_blank">Instagram</a>
+        <a href="/rss.xml">RSS</a>
+      </div>
+    </div>
+    <nav aria-label="Categories">
+      <p class="eyebrow">Sections</p>
+      {CATEGORIES.map((c) => <a href={`/category/${c.slug}/`}>{c.name}</a>)}
+    </nav>
+    <nav aria-label="Site">
+      <p class="eyebrow">Strip and Street</p>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
+      <a href="/privacy-policy/">Privacy Policy</a>
+      <a href="/affiliate-disclosure/">Affiliate Disclosure</a>
+    </nav>
+  </div>
+  <div class="wrap legal">
+    <span>© {SITE.founded}–{year} {SITE.name}. All rights reserved.</span>
+    <span>Some links on this site are affiliate links. <a href="/affiliate-disclosure/">Learn more</a>.</span>
+  </div>
+</footer>
+<style>
+  .site-footer { margin-top: 96px; background: var(--asphalt-2); border-top: 1px solid var(--line); }
+  .cols { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; padding-top: 56px; padding-bottom: 40px; }
+  .about p { color: var(--chalk-dim); max-width: 46ch; margin: 18px 0; }
+  nav { display: grid; gap: 10px; align-content: start; }
+  nav .eyebrow { margin: 0 0 6px; }
+  nav a, .social a { text-decoration: none; color: var(--chalk-dim); }
+  nav a:hover, .social a:hover { color: var(--signal); }
+  .social { display: flex; gap: 18px; font-family: var(--font-mono); font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; }
+  .legal { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; border-top: 1px solid var(--line); padding-top: 20px; padding-bottom: 28px; font-size: 13.5px; color: var(--chalk-mute); }
+  @media (max-width: 760px) { .cols { grid-template-columns: 1fr 1fr; } .about { grid-column: 1 / -1; } }
+</style>

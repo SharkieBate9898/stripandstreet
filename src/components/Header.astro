@@ -1,0 +1,59 @@
+---
+import { CATEGORIES } from '../consts';
+import Logo from './Logo.astro';
+const path = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a href="/" class="brand" aria-label="Strip and Street home"><Logo height={68} /></a>
+
+    <nav class="nav" aria-label="Main">
+      {CATEGORIES.map((c) => (
+        <a href={`/category/${c.slug}/`} aria-current={path.startsWith(`/category/${c.slug}`) ? 'page' : undefined}>{c.name}</a>
+      ))}
+      <a href="/about/" aria-current={path.startsWith('/about') ? 'page' : undefined}>About</a>
+    </nav>
+
+    <details class="mobile">
+      <summary aria-label="Menu"><span></span><span></span><span></span></summary>
+      <div class="drawer">
+        {CATEGORIES.map((c) => <a href={`/category/${c.slug}/`} style={`--cat:${c.color}`} class="cat-chip">{c.name}</a>)}
+        <a href="/about/" class="cat-chip">About</a>
+        <a href="/contact/" class="cat-chip">Contact</a>
+      </div>
+    </details>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky; top: 0; z-index: 50;
+    background: color-mix(in srgb, var(--asphalt) 92%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .bar { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 88px; }
+  .brand { display: flex; text-decoration: none; color: var(--chalk); }
+  .brand:hover { color: var(--chalk); }
+  .nav { display: flex; gap: 22px; }
+  .nav a {
+    font-family: var(--font-display); font-stretch: 85%; font-weight: 700; text-transform: uppercase;
+    font-size: 14px; letter-spacing: 0.05em; text-decoration: none; color: var(--chalk-dim);
+    padding: 6px 0; border-bottom: 2px solid transparent;
+  }
+  .nav a:hover, .nav a[aria-current] { color: var(--chalk); border-color: var(--signal); }
+  .mobile { display: none; position: relative; }
+  .mobile summary { list-style: none; cursor: pointer; width: 40px; height: 40px; display: grid; place-content: center; gap: 5px; }
+  .mobile summary::-webkit-details-marker { display: none; }
+  .mobile summary span { display: block; width: 24px; height: 2px; background: var(--chalk); }
+  .drawer {
+    position: absolute; right: 0; top: 64px; width: min(280px, calc(100vw - 32px));
+    background: var(--asphalt-2); border: 1px solid var(--line); padding: 18px;
+    display: grid; gap: 16px;
+  }
+  @media (max-width: 960px) {
+    .nav { display: none; }
+    .mobile { display: block; }
+  }
+</style>

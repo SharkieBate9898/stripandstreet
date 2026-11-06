@@ -1,0 +1,127 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import PostArt from '../components/PostArt.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { SITE, CATEGORIES, categoryBySlug } from '../consts';
+import { getPosts, formatDate, readingTime } from '../lib/posts';
+
+const posts = await getPosts();
+const lead = posts.find((p) => p.data.featured) ?? posts[0];
+const rest = posts.filter((p) => p !== lead);
+const side = rest.slice(0, 3);
+const latest = rest.slice(3, 9);
+const sections = CATEGORIES.map((c) => ({ c, items: posts.filter((p) => p.data.category === c.slug).slice(0, 3) })).filter(
+  (s) => s.items.length >= 2,
+);
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.name,
+    url: SITE.url,
+    logo: `${SITE.url}/logo-square.png`,
+    sameAs: [SITE.facebook, SITE.instagram],
+    foundingDate: String(SITE.founded),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE.name,
+    url: SITE.url,
+    description: SITE.description,
+  },
+];
+const leadCat = lead && categoryBySlug(lead.data.category);
+---
+
+<Base title={SITE.name} schema={schema}>
+  <section class="intro wrap">
+    <p class="eyebrow">Est. {SITE.founded} · Project cars · Buyer’s guides · Car culture</p>
+    <h1 class="display">Built in the garage.<br /><span>Driven on the street.</span></h1>
+  </section>
+
+  {lead && (
+    <section class="wrap top">
+      <article class="lead" style={`--cat:${leadCat!.color}`}>
+        <a href={`/${lead.id}/`} class="lead-media" tabindex="-1" aria-hidden="true">
+          <PostArt title={lead.data.title} category={lead.data.category} image={lead.data.heroImage} alt={lead.data.heroAlt} size="hero" eager />
+        </a>
+        <div class="lead-body">
+          <a class="cat-chip" href={`/category/${leadCat!.slug}/`}>{leadCat!.name}</a>
+          <h2 class="display"><a href={`/${lead.id}/`}>{lead.data.title}</a></h2>
+          <p>{lead.data.description}</p>
+          <p class="meta"><time datetime={lead.data.pubDate.toISOString()}>{formatDate(lead.data.pubDate)}</time> · {readingTime(lead.body)} min read</p>
+        </div>
+      </article>
+      {side.length > 0 && (
+        <div class="side">
+          <p class="eyebrow">Fresh off the lift</p>
+          {side.map((p) => <PostCard post={p} layout="row" />)}
+        </div>
+      )}
+    </section>
+  )}
+
+  {latest.length > 0 && (
+    <section class="wrap block">
+      <div class="section-head"><h2 class="display">Latest</h2></div>
+      <div class="grid">{latest.map((p) => <PostCard post={p} />)}</div>
+    </section>
+  )}
+
+  <section class="wrap block"><Newsletter /></section>
+
+  {sections.map(({ c, items }) => (
+    <section class="wrap block" style={`--cat:${c.color}`}>
+      <div class="section-head">
+        <h2 class="display cat-title">{c.name}</h2>
+        <a href={`/category/${c.slug}/`}>All {c.name} →</a>
+      </div>
+      <div class="grid">{items.map((p) => <PostCard post={p} />)}</div>
+    </section>
+  ))}
+
+  <section class="wrap block sections">
+    <div class="section-head"><h2 class="display">Pick your lane</h2></div>
+    <div class="lanes">
+      {CATEGORIES.map((c) => (
+        <a href={`/category/${c.slug}/`} class="lane lift" style={`--cat:${c.color}`}>
+          <span class="display">{c.name}</span>
+          <span class="blurb">{c.blurb}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .intro { padding-top: clamp(36px, 6vw, 72px); padding-bottom: 28px; }
+  .intro h1 { font-size: clamp(48px, 9vw, 116px); margin-top: 14px; }
+  .intro h1 span { color: transparent; -webkit-text-stroke: 2px var(--chalk); }
+  .top { display: grid; grid-template-columns: 1.75fr 1fr; gap: 36px; align-items: start; }
+  .lead { display: grid; gap: 20px; }
+  .lead-body { display: grid; gap: 12px; }
+  .lead h2 { font-size: clamp(34px, 4.6vw, 58px); }
+  .lead h2 a { text-decoration: none; }
+  .lead-body > p:not(.meta) { margin: 0; font-size: 18.5px; color: var(--chalk-dim); max-width: 62ch; }
+  .meta { margin: 0; font-family: var(--font-mono); font-size: 12px; color: var(--chalk-mute); }
+  .side { display: grid; gap: 22px; border-left: 1px solid var(--line); padding-left: 28px; }
+  .side .eyebrow { margin: 0; color: var(--signal); }
+  .block { margin-top: 80px; }
+  .cat-title { display: flex; align-items: center; gap: 14px; }
+  .cat-title::before { content: ''; width: 14px; height: 0.8em; background: var(--cat); transform: skewX(-18deg); }
+  .lanes { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 14px; }
+  .lane {
+    display: grid; gap: 8px; text-decoration: none; padding: 22px; border-radius: var(--radius);
+    background: var(--asphalt-2); border: 1px solid var(--line); border-top: 4px solid var(--cat);
+  }
+  .lane .display { font-size: 30px; }
+  .lane .blurb { color: var(--chalk-dim); font-size: 15px; }
+  .lane:hover { border-color: var(--cat); color: var(--chalk); }
+  @media (max-width: 960px) {
+    .top { grid-template-columns: 1fr; }
+    .side { border-left: 0; padding-left: 0; border-top: 1px solid var(--line); padding-top: 24px; }
+  }
+</style>

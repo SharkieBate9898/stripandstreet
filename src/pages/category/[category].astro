@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import Newsletter from '../../components/Newsletter.astro';
+import { CATEGORIES, SITE } from '../../consts';
+import { getPosts } from '../../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return CATEGORIES.map((c) => ({
+    params: { category: c.slug },
+    props: { c, items: posts.filter((p) => p.data.category === c.slug) },
+  }));
+}
+const { c, items } = Astro.props;
+const schema = [{
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url },
+    { '@type': 'ListItem', position: 2, name: c.name, item: `${SITE.url}/category/${c.slug}/` },
+  ],
+}];
+---
+<Base title={c.name} description={`${c.blurb} ${SITE.name} ${c.name.toLowerCase()} articles.`} schema={schema} noindex={items.length === 0}>
+  <header class="wrap head" style={`--cat:${c.color}`}>
+    <p class="eyebrow"><a href="/">Home</a> / Section</p>
+    <h1 class="display">{c.name}</h1>
+    <p class="blurb">{c.blurb}</p>
+  </header>
+  <section class="wrap">
+    {items.length ? (
+      <div class="grid">{items.map((p) => <PostCard post={p} />)}</div>
+    ) : (
+      <p class="empty">More {c.name} stories are on the way. Sign up below and we’ll send them to you.</p>
+    )}
+  </section>
+  <section class="wrap nl"><Newsletter /></section>
+</Base>
+<style>
+  .head { padding-top: clamp(32px, 6vw, 72px); padding-bottom: 40px; border-bottom: 4px solid var(--cat); margin-bottom: 40px; }
+  .head a { text-decoration: none; }
+  h1 { font-size: clamp(56px, 10vw, 140px); margin-top: 10px; }
+  .blurb { font-size: 20px; color: var(--chalk-dim); margin: 12px 0 0; }
+  .empty { color: var(--chalk-dim); font-size: 18px; }
+  .nl { margin-top: 72px; }
+</style>

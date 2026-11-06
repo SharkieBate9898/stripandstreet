@@ -1,0 +1,32 @@
+---
+import Page from '../layouts/Page.astro';
+---
+<Page title="Contact" eyebrow="Say what’s up" description="Contact Strip and Street about build features, corrections, or partnerships.">
+  <p>Want your build featured, spotted a mistake, or have a partnership in mind? Send a message and we’ll get back to you.</p>
+  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="company" action="/thanks/" class="contact">
+    <input type="hidden" name="form-name" value="contact" />
+    <p hidden><label>Leave blank <input name="company" /></label></p>
+    <label>Name<input type="text" name="name" required autocomplete="name" /></label>
+    <label>Email<input type="email" name="email" required autocomplete="email" /></label>
+    <label>Topic
+      <select name="topic">
+        <option>Feature my build</option>
+        <option>Correction</option>
+        <option>Partnership / advertising</option>
+        <option>Something else</option>
+      </select>
+    </label>
+    <label>Message<textarea name="message" rows="6" required></textarea></label>
+    <button class="btn" type="submit">Send message</button>
+  </form>
+</Page>
+<style>
+  .contact { display: grid; gap: 18px; margin-top: 28px; font-family: var(--font-body); }
+  label { display: grid; gap: 6px; font-size: 14px; font-family: var(--font-mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--chalk-dim); }
+  input, select, textarea {
+    font: 16px var(--font-body); color: var(--chalk); background: var(--asphalt-2);
+    border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; text-transform: none; letter-spacing: 0;
+  }
+  input:focus, select:focus, textarea:focus { border-color: var(--signal); outline: none; }
+  .btn { justify-self: start; }
+</style>
