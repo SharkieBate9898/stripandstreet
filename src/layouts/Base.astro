@@ -31,7 +31,9 @@ const {
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
-const fullTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline}` : `${title} | ${SITE.name}`;
+// Google shows roughly 60 characters of a title. Add the site name only when it fits.
+const withBrand = `${title} | ${SITE.name}`;
+const fullTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline}` : withBrand.length <= 60 ? withBrand : title;
 const ogImage = new URL(image, Astro.site).href;
 ---
 
