@@ -9,3 +9,10 @@
   for = "/_astro/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# Old URLs from the previous Strip and Street site
+[[redirects]]
+  from = "/post/if-jay-leno-can-t-protect-car-culture-who-can"
+  to = "/"
+  status = 301
+  force = true
