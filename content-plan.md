@@ -11,7 +11,6 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 | # | Post | Target search phrase | Category | Searches / difficulty |
 |---|---|---|---|---|
 | 1 | Coilovers vs Lowering Springs: Which Should You Buy? | coilovers vs lowering springs | gear-and-parts | 1,900 / 15 |
-| 2 | Your First Autocross: What to Bring and What to Expect | first autocross | how-to | Not checked |
 | 3 | How Much Does an LS Swap Cost? A Real-World Budget Breakdown | ls swap cost (+ "how much does an ls swap cost" 140) | builds | 320 / 16 |
 | 4 | Subaru BRZ vs Mazda Miata: Which Sports Car Should You Buy? | brz vs miata | buyers-guides | 480 / 22 |
 | 5 | How to Do Your Own Brake Pads and Rotors | how to change brake pads and rotors | how-to | Not checked |
@@ -64,3 +63,4 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 | [NA vs NB Miata](/na-vs-nb-miata/) | na vs nb miata | buyers-guides | 720 / 18 |
 | [Miata Mods Guide](/miata-mods-guide/) | miata mods | gear-and-parts | 880 / 24 |
 | [Best Autocross Tires](/best-autocross-tires/) | best autocross tires | gear-and-parts | 170 / 18 |
+| [Your First Autocross](/first-autocross/) | first autocross | how-to | No Ubersuggest data (Nov 2026) |
