@@ -26,6 +26,9 @@ export const MAILCHIMP_ACTION = '';
 // copy the token from the snippet and paste it here. Only you can see the dashboard.
 export const CLOUDFLARE_ANALYTICS_TOKEN = '';
 
+// Google Analytics 4 Measurement ID (starts with G-). Leave empty to turn GA off.
+export const GA_MEASUREMENT_ID = 'G-2V43ETT5NN';
+
 // Google Search Console HTML-tag verification code (just the content="..." value).
 export const GSC_VERIFICATION = '';
 

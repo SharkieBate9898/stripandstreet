@@ -4,7 +4,7 @@ import '@fontsource-variable/source-serif-4/index.css';
 import '@fontsource/jetbrains-mono/latin-400.css';
 import '@fontsource/jetbrains-mono/latin-500.css';
 import '../styles/global.css';
-import { SITE, GSC_VERIFICATION, ADS, CLOUDFLARE_ANALYTICS_TOKEN } from '../consts';
+import { SITE, GSC_VERIFICATION, ADS, CLOUDFLARE_ANALYTICS_TOKEN, GA_MEASUREMENT_ID } from '../consts';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
@@ -69,6 +69,18 @@ const ogImage = new URL(image, Astro.site).href;
     <meta name="twitter:image" content={ogImage} />
 
     {schema.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
+
+    {GA_MEASUREMENT_ID && (
+      <Fragment>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}></script>
+        <script is:inline define:vars={{ gaId: GA_MEASUREMENT_ID }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', gaId);
+        </script>
+      </Fragment>
+    )}
 
     {CLOUDFLARE_ANALYTICS_TOKEN && (
       <script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={JSON.stringify({ token: CLOUDFLARE_ANALYTICS_TOKEN })}></script>
