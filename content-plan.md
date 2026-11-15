@@ -10,7 +10,6 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 
 | # | Post | Target search phrase | Category | Searches / difficulty |
 |---|---|---|---|---|
-| 3 | How Much Does an LS Swap Cost? A Real-World Budget Breakdown | ls swap cost (+ "how much does an ls swap cost" 140) | builds | 320 / 16 |
 | 4 | Subaru BRZ vs Mazda Miata: Which Sports Car Should You Buy? | brz vs miata | buyers-guides | 480 / 22 |
 | 5 | How to Do Your Own Brake Pads and Rotors | how to change brake pads and rotors | how-to | Not checked |
 | 6 | The History of Drifting: From Japanese Mountain Passes to Formula Drift | history of drifting | car-culture | Not checked |
@@ -64,3 +63,4 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 | [Best Autocross Tires](/best-autocross-tires/) | best autocross tires | gear-and-parts | 170 / 18 |
 | [Your First Autocross](/first-autocross/) | first autocross | how-to | No Ubersuggest data (Nov 2026) |
 | [Coilovers vs Lowering Springs](/coilovers-vs-lowering-springs/) | coilovers vs lowering springs | gear-and-parts | 1,900 / 15 |
+| [How Much Does an LS Swap Cost?](/ls-swap-cost/) | ls swap cost | builds | 320 / 16 |
