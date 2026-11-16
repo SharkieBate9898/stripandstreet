@@ -5,7 +5,6 @@ pubDate: 2026-11-05
 category: buyers-guides
 tags: [project-car, beginner, budget, buyers-guide]
 keyword: "best project cars for beginners"
-featured: true
 heroImage: "https://images.unsplash.com/photo-1786489785506-9c527aaf908d?w=1600&q=80&auto=format&fit=crop"
 heroAlt: "Mechanic kneeling to sand body filler on the rear quarter panel of a car in a workshop"
 heroCredit: "Zoshua Colah"
