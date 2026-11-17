@@ -10,7 +10,9 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 
 | # | Post | Target search phrase | Category | Searches / difficulty |
 |---|---|---|---|---|
+| 4a | Turbo vs Supercharger: Which Is Better for Your Build? | turbo vs supercharger | gear-and-parts | 8,100 / 16 |
 | 4 | Subaru BRZ vs Mazda Miata: Which Sports Car Should You Buy? | brz vs miata | buyers-guides | 480 / 22 |
+| 4b | Do Cold Air Intakes Work? How Much Power They Really Add | what cold air intake do (+ "how much hp will a cold air intake add" 2,400 / 26) | gear-and-parts | 4,400 / 7 |
 | 5 | How to Do Your Own Brake Pads and Rotors | how to change brake pads and rotors | how-to | Not checked |
 | 6 | The History of Drifting: From Japanese Mountain Passes to Formula Drift | history of drifting | car-culture | Not checked |
 | 7 | Nissan 350Z Buyer's Guide: Common Problems and What to Check | 350z common problems | buyers-guides | 50 / 19–25 |
