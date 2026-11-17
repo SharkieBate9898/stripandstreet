@@ -15,21 +15,26 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 | 4b | Do Cold Air Intakes Work? How Much Power They Really Add | what cold air intake do (+ "how much hp will a cold air intake add" 2,400 / 26) | gear-and-parts | 4,400 / 7 |
 | 5 | How to Do Your Own Brake Pads and Rotors | how to change brake pads and rotors | how-to | Not checked |
 | 6 | The History of Drifting: From Japanese Mountain Passes to Formula Drift | history of drifting | car-culture | Not checked |
+| 6a | What Is a Limited Slip Differential (and Do You Need One)? | limited slip differential (+ "what is a limited slip differential") | gear-and-parts | 8,100 / 22 |
 | 7 | Nissan 350Z Buyer's Guide: Common Problems and What to Check | 350z common problems | buyers-guides | 50 / 19–25 |
 | 8 | Best Budget Track Day Brake Pads | best track day brake pads | gear-and-parts | Not checked |
 | 9 | How Much Does a Track Day Cost? | track day cost | how-to | Not checked |
 | 10 | Cars and Coffee Etiquette: How Not to Be That Guy | cars and coffee etiquette | car-culture | Not checked |
+| 10a | What Is a Cat-Back Exhaust, and Is It Worth It? | cat back exhaust (+ "what is a cat back exhaust" 2,900 / 17) | gear-and-parts | 14,800 / 12 |
 | 11 | E46 BMW 330i Common Problems and What to Check Before Buying | e46 330i problems | buyers-guides | Not checked |
+| 11a | What Is E85? Pros, Cons and What It Costs | what is e85 gas (+ "what is e85" 6,600 / 27, "cost of e85" 4,400 / 15) | how-to | 12,100 / 19 |
 | 12 | Best Torque Wrenches for DIY Car Work | best torque wrench for cars | gear-and-parts | Not checked |
 | 13 | How to Plan a Budget Car Build, Step by Step | how to plan a car build | how-to | Not checked |
 | 14 | Toyota 86 / Subaru BRZ First Mods on a Budget | brz first mods | builds | Not checked |
 | 15 | What Is JDM? Car Culture Explained | what is jdm | car-culture | Not checked (big sites compete) |
+| 15a | What Does a Downpipe Do? Catted vs Catless Explained | downpipe (+ "catless downpipe" 5,400 / 14) | gear-and-parts | 9,900 / 21 |
 | 16 | Mustang S197 vs S550: Which GT Should You Buy? | s197 vs s550 | buyers-guides | Not checked |
 | 17 | Best Floor Jacks and Jack Stands for Home Garages | best floor jack for home garage | gear-and-parts | Not checked |
 | 18 | How to Bleed Your Brakes (One-Person and Two-Person Methods) | how to bleed brakes | how-to | Not checked |
 | 19 | Honda Civic Si Generations Explained: Which One to Buy | best civic si generation | buyers-guides | Not checked |
 | 20 | How Much Does a Miata LS Swap Cost? | miata ls swap cost | builds | 50 / 30 |
 | 21 | Why Pop-Up Headlights Disappeared | why did pop up headlights go away | car-culture | Not checked |
+| 21a | What Is a Stage 1 Tune? Gains, Costs and Risks | stage 1 tune | how-to | 1,300 / 14 |
 | 22 | Best Budget Coilovers for Miata | best budget coilovers miata | gear-and-parts | Not checked |
 | 23 | How to Do a Basic Alignment Check at Home | diy alignment | how-to | Not checked |
 | 24 | Subaru WRX Common Problems by Generation | subaru wrx common problems | buyers-guides | 40 / 19–22 |
