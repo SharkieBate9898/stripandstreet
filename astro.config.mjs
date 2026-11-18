@@ -23,7 +23,7 @@ export default defineConfig({
   integrations: [
     sitemap({
       filter: (page) => {
-        if (/\/(thanks|404)\/?$/.test(page)) return false;
+        if (/\/(thanks|check-your-email|404)\/?$/.test(page)) return false;
         const cat = page.match(/\/category\/([^/]+)\/?$/);
         return !cat || usedCategories.has(cat[1]);
       },

@@ -5,15 +5,15 @@ const { compact = false, id = 'nl' } = Astro.props;
 ---
 <section class:list={['newsletter', { compact }]} aria-labelledby={`${id}-title`}>
   <div class="copy">
-    <p class="eyebrow">The Strip and Street newsletter</p>
-    <h2 id={`${id}-title`} class="display">Get the good stuff in your inbox</h2>
-    <p class="sub">New builds, buyer’s guides and garage tips, once a week. No spam, unsubscribe anytime.</p>
+    <p class="eyebrow">Free download · Strip and Street newsletter</p>
+    <h2 id={`${id}-title`} class="display">Get the free Project Car Budget Planner</h2>
+    <p class="sub">Four pages you can print or fill in: budget sheet, sample build, before-you-buy checklist and parts log. Plus new posts by email. No spam, unsubscribe anytime.</p>
   </div>
   {KIT_FORM_ACTION ? (
     <form action={KIT_FORM_ACTION} method="post" target="_blank" class="form">
       <label for={`${id}-email`} class="sr">Email address</label>
       <input id={`${id}-email`} type="email" name="email_address" placeholder="you@example.com" required autocomplete="email" />
-      <button class="btn" type="submit">Subscribe</button>
+      <button class="btn" type="submit">Send me the planner</button>
     </form>
   ) : MAILCHIMP_ACTION ? (
     <form action={MAILCHIMP_ACTION} method="post" target="_blank" class="form">
