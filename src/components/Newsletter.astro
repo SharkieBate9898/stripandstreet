@@ -1,26 +1,32 @@
 ---
-import { MAILCHIMP_ACTION } from '../consts';
-interface Props { compact?: boolean }
-const { compact = false } = Astro.props;
+import { KIT_FORM_ACTION, MAILCHIMP_ACTION } from '../consts';
+interface Props { compact?: boolean; id?: string }
+const { compact = false, id = 'nl' } = Astro.props;
 ---
-<section class:list={['newsletter', { compact }]} aria-labelledby="nl-title">
+<section class:list={['newsletter', { compact }]} aria-labelledby={`${id}-title`}>
   <div class="copy">
     <p class="eyebrow">The Strip and Street newsletter</p>
-    <h2 id="nl-title" class="display">Get the good stuff in your inbox</h2>
+    <h2 id={`${id}-title`} class="display">Get the good stuff in your inbox</h2>
     <p class="sub">New builds, buyer’s guides and garage tips, once a week. No spam, unsubscribe anytime.</p>
   </div>
-  {MAILCHIMP_ACTION ? (
+  {KIT_FORM_ACTION ? (
+    <form action={KIT_FORM_ACTION} method="post" target="_blank" class="form">
+      <label for={`${id}-email`} class="sr">Email address</label>
+      <input id={`${id}-email`} type="email" name="email_address" placeholder="you@example.com" required autocomplete="email" />
+      <button class="btn" type="submit">Subscribe</button>
+    </form>
+  ) : MAILCHIMP_ACTION ? (
     <form action={MAILCHIMP_ACTION} method="post" target="_blank" class="form">
-      <label for="nl-email" class="sr">Email address</label>
-      <input id="nl-email" type="email" name="EMAIL" placeholder="you@example.com" required autocomplete="email" />
+      <label for={`${id}-email`} class="sr">Email address</label>
+      <input id={`${id}-email`} type="email" name="EMAIL" placeholder="you@example.com" required autocomplete="email" />
       <button class="btn" type="submit">Subscribe</button>
     </form>
   ) : (
     <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="company" action="/thanks/" class="form">
       <input type="hidden" name="form-name" value="newsletter" />
       <p hidden><label>Leave blank <input name="company" /></label></p>
-      <label for="nl-email" class="sr">Email address</label>
-      <input id="nl-email" type="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+      <label for={`${id}-email`} class="sr">Email address</label>
+      <input id={`${id}-email`} type="email" name="email" placeholder="you@example.com" required autocomplete="email" />
       <button class="btn" type="submit">Subscribe</button>
     </form>
   )}

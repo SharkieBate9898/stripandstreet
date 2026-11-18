@@ -15,9 +15,15 @@ export const SITE = {
   instagram: 'https://www.instagram.com/stripandstreet',
 };
 
+// Kit (kit.com) signup form. This is the URL inside action="..." in the form's
+// HTML embed code (Kit → Landing pages & forms → your form → Publish → HTML).
+// When set, every newsletter box on the site sends signups to Kit.
+export const KIT_FORM_ACTION = 'https://app.kit.com/forms/10206391/subscriptions';
+
 // Paste your Mailchimp embedded-form action URL here
 // (Mailchimp → Audience → Signup forms → Embedded forms → copy the
-// URL inside action="..."). While empty, signups are collected by
+// URL inside action="..."). Only used if KIT_FORM_ACTION is empty. If both are
+// empty, signups are collected by
 // Netlify Forms instead (Netlify dashboard → Forms → newsletter).
 export const MAILCHIMP_ACTION = '';
 

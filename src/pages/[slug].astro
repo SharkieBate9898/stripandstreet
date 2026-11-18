@@ -112,6 +112,16 @@ const share = {
 
         <div class="prose"><Content /></div>
 
+        {toc.length >= 4 && (
+          <div class="nl-mid" id="nl-mid-wrap" hidden><Newsletter compact id="nl-mid" /></div>
+        )}
+        <script>
+          // Move the mid-post signup box to just before the third section, so readers see it partway through.
+          const box = document.getElementById('nl-mid-wrap');
+          const target = document.querySelectorAll('.prose > h2')[2];
+          if (box && target) { target.before(box); box.hidden = false; }
+        </script>
+
         <AdSlot slot="inArticle" />
 
         {d.faq.length > 0 && (
@@ -169,6 +179,7 @@ const share = {
   .toc li::marker { color: var(--signal); font-family: var(--font-mono); font-size: 13px; }
   .toc a { text-decoration: none; color: var(--chalk-dim); }
   .toc a:hover { color: var(--signal); }
+  .nl-mid { margin: 40px 0; }
   .faq { margin-top: 56px; }
   .faq h2 { font-size: 40px; margin-bottom: 18px; }
   .faq details { border-top: 1px solid var(--line); padding: 16px 0; }
