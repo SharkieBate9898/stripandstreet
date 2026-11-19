@@ -13,6 +13,25 @@
 # Old URLs from the previous Strip and Street site
 [[redirects]]
   from = "/post/if-jay-leno-can-t-protect-car-culture-who-can"
+  to = "/category/car-culture/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/instagram-is-shaping-muscle-car-builds-more-than-engineers-are"
+  to = "/category/car-culture/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/mustang-driver-arrested-for-139-mph-one-hour-after-purchase"
+  to = "/category/news/"
+  status = 301
+  force = true
+
+# Any other old /post/... URL (e.g. /post/300001, /post/420001)
+[[redirects]]
+  from = "/post/*"
   to = "/"
   status = 301
   force = true
