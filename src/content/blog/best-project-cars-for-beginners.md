@@ -1,7 +1,8 @@
 ---
-title: "Best Project Cars for Beginners (and What They Cost in 2026)"
+title: "Best First Project Cars for Beginners (2026 Prices)"
 description: "The best first project cars for beginners: cheap to buy, easy to wrench on and backed by huge parts support. Real 2026 prices included."
 pubDate: 2026-11-05
+updatedDate: 2026-11-18
 category: buyers-guides
 tags: [project-car, beginner, budget, buyers-guide]
 keyword: "best project cars for beginners"
@@ -18,11 +19,13 @@ faq:
     a: "As of 2026, Miatas, E46 BMW 3 Series, Nissan 350Zs, and 2001–2006 Mustang GTs can all be found under $10,000–$12,000, depending on condition and location."
   - q: "Should a beginner buy a car that doesn't run?"
     a: "Usually not. A running, driving car lets you learn one job at a time and actually enjoy it. Non-running cars hide problems and can stall a project for months."
+  - q: "What is a good project car for a teenager?"
+    a: "Look for something cheap, slow enough to be forgiving and affordable to insure, like an NA or NB Miata or a 1990s Honda Civic. Get insurance quotes before you buy, because sporty cars and V8s can cost a young driver far more to insure than the car itself."
 ---
 
 Your first project car shouldn't be a dream car. It should be a **learning car**: cheap enough that mistakes don't hurt, simple enough that you can fix it in a driveway, and popular enough that every problem you hit has already been solved on a forum somewhere.
 
-Here's how to pick one, plus the cars we'd actually recommend, with real 2026 prices.
+**The short answer:** for most people, the best first project car is an NA or NB Mazda Miata. The E46 BMW 3 Series, Nissan 350Z, 2001–2010 Mustang GT and 1992–2000 Honda Civic are also great picks, depending on your budget and whether you want rear- or front-wheel drive. Below is how to pick one, plus what each of these costs in 2026.
 
 ## What makes a good beginner project car
 

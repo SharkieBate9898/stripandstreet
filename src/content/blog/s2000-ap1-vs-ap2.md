@@ -1,7 +1,8 @@
 ---
-title: "S2000 AP1 vs AP2: Which One Should You Buy?"
-description: "AP1 or AP2? We break down the engines, handling, year-by-year changes, common problems and what Honda S2000s actually sell for right now."
+title: "Honda S2000 AP1 vs AP2: Differences, Years and Which to Buy"
+description: "Honda S2000 AP1 (2000–2003) vs AP2 (2004–2009): engine, handling and year-by-year differences, common problems and 2026 prices."
 pubDate: 2026-11-05
+updatedDate: 2026-11-18
 category: buyers-guides
 tags: [honda, s2000, buyers-guide, roadster]
 keyword: "s2000 ap1 vs ap2"
@@ -24,7 +25,7 @@ faq:
 
 The Honda S2000 is one of those cars that just keeps getting better with age. A 9,000-rpm four-cylinder, a six-speed that feels like a rifle bolt, 50:50 weight distribution, and a roof that drops in seconds. Honda only sold 66,860 of them in the US, and every year there are fewer clean ones left.
 
-If you're shopping, the first decision is the big one: **AP1 or AP2?** Here's everything that actually changed, what each generation is like to live with, and what they're selling for right now.
+If you're shopping, the first decision is the big one: **AP1 or AP2?** The short version: the **AP1 (2000–2003)** has the 2.0-liter F20C that revs to 9,000 rpm and sharper, twitchier handling, while the **AP2 (2004–2009)** has the 2.2-liter F22C1 with more midrange torque, bigger 17-inch wheels and calmer handling at the limit. Below is everything that actually changed, what each generation is like to live with, and what they're selling for right now.
 
 ## The quick answer
 
