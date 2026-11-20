@@ -64,6 +64,7 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 - GTA VI came out November 19, 2026. Compare 4–6 GTA VI muscle cars with the real cars they resemble, starting with the Vapid Dominator vs the Ford Mustang.
 - Only include cars that reliable sources confirm are in GTA VI. Rockstar doesn't name real inspirations, so say a car "looks inspired by" or "is clearly based on" the real one, never that it is licensed.
 - For each pair, cover what the game copies (body lines, era, details) and what it changes, plus real-car facts (years, engine, power) checked against current sources.
+- Hero image: a free Unsplash photo of a real muscle car (ideally a Mustang) with a Miami / Vice City feel, such as palm trees, neon or sunset. Never the GTA VI cover art or any Rockstar image.
 - Photos: hero image and real-car images come from Unsplash under the free license, as usual. Show each real car's photo in the body with its credit. Do NOT use GTA screenshots, Rockstar artwork or images from any other site.
 
 ## Published
