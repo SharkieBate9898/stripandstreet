@@ -11,6 +11,7 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 | # | Post | Target search phrase | Category | Searches / difficulty |
 |---|---|---|---|---|
 | 4a | Turbo vs Supercharger: Which Is Better for Your Build? | turbo vs supercharger | gear-and-parts | 8,100 / 16 |
+| 4c | GTA 6 Muscle Cars vs the Real Thing: Vapid Dominator, and More | gta 6 cars (+ "gta 6 cars in real life") | car-culture | 3,600 / 32 (pre-launch data) |
 | 4 | Subaru BRZ vs Mazda Miata: Which Sports Car Should You Buy? | brz vs miata | buyers-guides | 480 / 22 |
 | 4b | Do Cold Air Intakes Work? How Much Power They Really Add | what cold air intake do (+ "how much hp will a cold air intake add" 2,400 / 26) | gear-and-parts | 4,400 / 7 |
 | 5 | How to Do Your Own Brake Pads and Rotors | how to change brake pads and rotors | how-to | Not checked |
@@ -58,6 +59,12 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 | 42 | Best Car Detailing Kits for Beginners | best car detailing kit for beginners | gear-and-parts | Not checked |
 | 43 | How to Read a Dyno Sheet | how to read a dyno sheet | how-to | Not checked |
 | 44 | Ford Ranger as a Project Truck: Buyer's Guide | ford ranger project truck | buyers-guides | Not checked |
+
+### Notes for 4c (GTA 6 muscle cars), requested by Jake
+- GTA VI came out November 19, 2026. Compare 4–6 GTA VI muscle cars with the real cars they resemble, starting with the Vapid Dominator vs the Ford Mustang.
+- Only include cars that reliable sources confirm are in GTA VI. Rockstar doesn't name real inspirations, so say a car "looks inspired by" or "is clearly based on" the real one, never that it is licensed.
+- For each pair, cover what the game copies (body lines, era, details) and what it changes, plus real-car facts (years, engine, power) checked against current sources.
+- Photos: hero image and real-car images come from Unsplash under the free license, as usual. Show each real car's photo in the body with its credit. Do NOT use GTA screenshots, Rockstar artwork or images from any other site.
 
 ## Published
 
