@@ -10,7 +10,6 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 
 | # | Post | Target search phrase | Category | Searches / difficulty |
 |---|---|---|---|---|
-| 4a | Turbo vs Supercharger: Which Is Better for Your Build? | turbo vs supercharger | gear-and-parts | 8,100 / 16 |
 | 4c | GTA 6 Muscle Cars vs the Real Thing: Vapid Dominator, and More | gta 6 cars (+ "gta 6 cars in real life") | car-culture | 3,600 / 32 (pre-launch data) |
 | 4 | Subaru BRZ vs Mazda Miata: Which Sports Car Should You Buy? | brz vs miata | buyers-guides | 480 / 22 |
 | 4b | Do Cold Air Intakes Work? How Much Power They Really Add | what cold air intake do (+ "how much hp will a cold air intake add" 2,400 / 26) | gear-and-parts | 4,400 / 7 |
@@ -76,6 +75,7 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 
 | Post | Target search phrase | Category | Searches / difficulty |
 |---|---|---|---|
+| [Turbo vs Supercharger](/turbo-vs-supercharger/) | turbo vs supercharger | gear-and-parts | 8,100 / 16 |
 | [Best Project Cars for Beginners](/best-project-cars-for-beginners/) | best project cars for beginners | buyers-guides | 720 / 25 |
 | [S2000 AP1 vs AP2](/s2000-ap1-vs-ap2/) | s2000 ap1 vs ap2 | buyers-guides | 1,000 / 20 |
 | [NA vs NB Miata](/na-vs-nb-miata/) | na vs nb miata | buyers-guides | 720 / 18 |
