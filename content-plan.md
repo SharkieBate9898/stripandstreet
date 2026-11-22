@@ -10,7 +10,6 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 
 | # | Post | Target search phrase | Category | Searches / difficulty |
 |---|---|---|---|---|
-| 4c | GTA 6 Muscle Cars vs the Real Thing: Vapid Dominator, and More | gta 6 cars (+ "gta 6 cars in real life") | car-culture | 3,600 / 32 (pre-launch data) |
 | 4 | Subaru BRZ vs Mazda Miata: Which Sports Car Should You Buy? | brz vs miata | buyers-guides | 480 / 22 |
 | 4b | Do Cold Air Intakes Work? How Much Power They Really Add | what cold air intake do (+ "how much hp will a cold air intake add" 2,400 / 26) | gear-and-parts | 4,400 / 7 |
 | 5 | How to Do Your Own Brake Pads and Rotors | how to change brake pads and rotors | how-to | Not checked |
@@ -59,7 +58,7 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 | 43 | How to Read a Dyno Sheet | how to read a dyno sheet | how-to | Not checked |
 | 44 | Ford Ranger as a Project Truck: Buyer's Guide | ford ranger project truck | buyers-guides | Not checked |
 
-### Notes for 4c (GTA 6 muscle cars), requested by Jake
+### Notes for 4c (GTA 6 muscle cars), requested by Jake (done, published Nov 22, 2026)
 - GTA VI came out November 19, 2026. Compare 4–6 GTA VI muscle cars with the real cars they resemble, starting with the Vapid Dominator vs the Ford Mustang.
 - Only include cars that reliable sources confirm are in GTA VI. Rockstar doesn't name real inspirations, so say a car "looks inspired by" or "is clearly based on" the real one, never that it is licensed.
 - For each pair, cover what the game copies (body lines, era, details) and what it changes, plus real-car facts (years, engine, power) checked against current sources.
@@ -75,6 +74,7 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 
 | Post | Target search phrase | Category | Searches / difficulty |
 |---|---|---|---|
+| [GTA 6 Cars in Real Life: The Muscle Cars](/gta-6-muscle-cars-real-life/) | gta 6 cars | car-culture | 3,600 / 32 (pre-launch data) |
 | [Turbo vs Supercharger](/turbo-vs-supercharger/) | turbo vs supercharger | gear-and-parts | 8,100 / 16 |
 | [Best Project Cars for Beginners](/best-project-cars-for-beginners/) | best project cars for beginners | buyers-guides | 720 / 25 |
 | [S2000 AP1 vs AP2](/s2000-ap1-vs-ap2/) | s2000 ap1 vs ap2 | buyers-guides | 1,000 / 20 |
