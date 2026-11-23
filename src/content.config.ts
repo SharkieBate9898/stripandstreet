@@ -17,6 +17,8 @@ const blog = defineCollection({
     heroAlt: z.string().min(1, 'Describe the photo in heroAlt'),
     heroCredit: z.string().min(1, 'Credit the photographer in heroCredit'),
     heroCreditUrl: z.string().url().optional(),
+    // Optional crop focus for the hero photo, as a CSS object-position (e.g. "center 70%").
+    heroPosition: z.string().optional(),
     featured: z.boolean().default(false),
     draft: z.boolean().default(false),
     faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),

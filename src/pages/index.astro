@@ -46,7 +46,7 @@ const leadCat = lead && categoryBySlug(lead.data.category);
     <section class="wrap top">
       <article class="lead" style={`--cat:${leadCat!.color}`}>
         <a href={`/${lead.id}/`} class="lead-media" tabindex="-1" aria-hidden="true">
-          <PostArt title={lead.data.title} category={lead.data.category} image={lead.data.heroImage} alt={lead.data.heroAlt} size="hero" eager />
+          <PostArt title={lead.data.title} category={lead.data.category} image={lead.data.heroImage} alt={lead.data.heroAlt} position={lead.data.heroPosition} size="hero" eager />
         </a>
         <div class="lead-body">
           <a class="cat-chip" href={`/category/${leadCat!.slug}/`}>{leadCat!.name}</a>

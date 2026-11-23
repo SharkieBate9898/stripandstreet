@@ -9,6 +9,7 @@ heroImage: "https://images.unsplash.com/photo-1761440567736-1bef26a5afff?w=1600&
 heroAlt: "3D render of a classic muscle car parked outside a motel at night under a red vacancy sign and palm trees"
 heroCredit: "itsiken"
 heroCreditUrl: "https://unsplash.com/photos/retro-car-parked-outside-motel-with-vacancy-sign-muixYUesrTc"
+heroPosition: "center 70%"
 faq:
   - q: "Are the cars in GTA 6 real cars?"
     a: "No. Rockstar uses made-up brands like Vapid, Bravado, Declasse and Imponte, and it doesn't license real models or name its inspirations. Most of the cars are clearly styled after real ones, though, which is why players and car lists match them to real models."

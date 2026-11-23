@@ -10,7 +10,7 @@ const cat = categoryBySlug(d.category);
 ---
 <article class:list={['card', 'lift', layout]} style={`--cat:${cat.color}`}>
   <a href={`/${post.id}/`} class="media" tabindex="-1" aria-hidden="true">
-    <PostArt title={d.title} category={d.category} image={d.heroImage} alt={d.heroAlt} />
+    <PostArt title={d.title} category={d.category} image={d.heroImage} alt={d.heroAlt} position={d.heroPosition} />
   </a>
   <div class="body">
     <a class="cat-chip" href={`/category/${cat.slug}/`}>{cat.name}</a>

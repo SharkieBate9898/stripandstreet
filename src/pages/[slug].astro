@@ -89,7 +89,7 @@ const share = {
     </header>
 
     <div class="wrap hero">
-      <PostArt title={d.title} category={d.category} image={d.heroImage} alt={d.heroAlt} size="hero" eager />
+      <PostArt title={d.title} category={d.category} image={d.heroImage} alt={d.heroAlt} position={d.heroPosition} size="hero" eager />
       {d.heroCredit && (
         <p class="credit">Photo: {d.heroCreditUrl ? <a href={d.heroCreditUrl} rel="noopener" target="_blank">{d.heroCredit}</a> : d.heroCredit} on Unsplash</p>
       )}

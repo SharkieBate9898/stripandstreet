@@ -8,8 +8,9 @@ interface Props {
   alt?: string;
   size?: 'card' | 'hero';
   eager?: boolean;
+  position?: string;
 }
-const { title, category, image, alt, size = 'card', eager = false } = Astro.props;
+const { title, category, image, alt, size = 'card', eager = false, position } = Astro.props;
 const cat = categoryBySlug(category);
 // Pick a short, punchy word from the title for the graphic.
 const stop = new Set(['the','a','an','and','or','vs','for','to','of','your','what','how','which','that','with','is','it','one','should','you','buy','best','won’t','won\'t','under']);
@@ -21,7 +22,7 @@ const src = image && image.includes('images.unsplash.com') ? image.replace(/([?&
 ---
 <div class:list={['art', size]} style={`--cat:${cat.color}`}>
   {image ? (
-    <img src={src} alt={alt || title} loading={eager ? 'eager' : 'lazy'} decoding="async" width="1200" height="675" />
+    <img src={src} alt={alt || title} loading={eager ? 'eager' : 'lazy'} decoding="async" width="1200" height="675" style={position ? `object-position:${position}` : undefined} />
   ) : (
     <div class="gfx" role="img" aria-label={alt || title}>
       <span class="stripes"></span>

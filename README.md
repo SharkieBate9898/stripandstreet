@@ -31,6 +31,7 @@ Frontmatter fields:
 | `heroImage` | **yes** | An Unsplash image URL (see `POSTING.md`) or `/images/my-photo.jpg` for your own photo in `public/images/`. |
 | `heroAlt` / `heroCredit` | **yes** | Image description and photographer name. |
 | `heroCreditUrl` | no | Link to the photo's Unsplash page. |
+| `heroPosition` | no | Moves the photo's crop, e.g. `"center 70%"` shows more of the bottom, `"center 30%"` more of the top. |
 | `featured` | no | `true` pins the post as the big homepage story. |
 | `draft` | no | `true` hides the post. |
 | `faq` | no | List of `- q: "Question?"` / `  a: "Answer."` pairs. Shown at the end and added as FAQ schema. |
