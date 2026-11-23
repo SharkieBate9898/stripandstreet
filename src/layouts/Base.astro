@@ -4,7 +4,7 @@ import '@fontsource-variable/source-serif-4/index.css';
 import '@fontsource/jetbrains-mono/latin-400.css';
 import '@fontsource/jetbrains-mono/latin-500.css';
 import '../styles/global.css';
-import { SITE, GSC_VERIFICATION, ADS, CLOUDFLARE_ANALYTICS_TOKEN, GA_MEASUREMENT_ID } from '../consts';
+import { SITE, GSC_VERIFICATION, PINTEREST_VERIFICATION, ADS, CLOUDFLARE_ANALYTICS_TOKEN, GA_MEASUREMENT_ID } from '../consts';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
@@ -52,6 +52,7 @@ const ogImage = new URL(image, Astro.site).href;
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
     {GSC_VERIFICATION && <meta name="google-site-verification" content={GSC_VERIFICATION} />}
+    {PINTEREST_VERIFICATION && <meta name="p:domain_verify" content={PINTEREST_VERIFICATION} />}
 
     <!-- Open Graph / social -->
     <meta property="og:site_name" content={SITE.name} />

@@ -38,6 +38,9 @@ export const GA_MEASUREMENT_ID = 'G-2V43ETT5NN';
 // Google Search Console HTML-tag verification code (just the content="..." value).
 export const GSC_VERIFICATION = '';
 
+// Pinterest website claim code (Pinterest → Settings → Link to Pinterest → Websites).
+export const PINTEREST_VERIFICATION = '21d22b0e9719327dfb6accab99e5618f';
+
 // AdSense. Set ADS_ENABLED to true and fill in your publisher ID
 // (ca-pub-XXXXXXXXXXXXXXXX) and slot IDs once AdSense approves the site.
 export const ADS = {
