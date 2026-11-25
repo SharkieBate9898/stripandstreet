@@ -86,7 +86,7 @@ Honestly? Both are fantastic, and most people couldn't tell you which one they d
 - **NA:** a bit lighter, a bit more raw, and the steering feels slightly more alive.
 - **NB:** a bit more power, a stiffer body, more confidence at speed, and a little more room inside.
 
-On a back road, a set of good tires and fresh shocks will make a much bigger difference than NA vs NB.
+On a back road, a set of good tires and [fresh shocks](/coilovers-vs-lowering-springs/) will make a much bigger difference than NA vs NB.
 
 ## What they cost in 2026
 
@@ -124,4 +124,4 @@ Always confirm fitment for your exact year before you buy, especially for brakes
 - You live somewhere cold (no frozen pop-up motors, and a glass window with a defroster)
 - You want a six-speed or a Mazdaspeed
 
-**Either way:** bring a flashlight, check for rust first, and buy the cleanest, most original car you can afford. Then check out our [Miata mods guide](/miata-mods-guide/) for where to start.
+**Either way:** bring a flashlight, check for rust first, and buy the cleanest, most original car you can afford. Then check out our [Miata mods guide](/miata-mods-guide/) for where to start. And if you've got a bigger budget and want a roadster with more power, the Honda S2000 is the classic step up. Here's [how the AP1 and AP2 compare](/s2000-ap1-vs-ap2/).

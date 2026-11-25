@@ -22,7 +22,7 @@ faq:
     a: "They're street legal, but they wear quickly, can be noisy and some are poor in heavy rain or cold. Many people use a separate set of wheels for event tires."
 ---
 
-Tires are the biggest upgrade you can make for autocross. A stock Miata on great tires will beat a modified Miata on worn-out all-seasons almost every time.
+Tires are the biggest upgrade you can make for autocross. A stock Miata on great tires will beat a modified Miata on worn-out all-seasons almost every time. New to the sport? Start with our guide to [your first autocross](/first-autocross/).
 
 This guide covers the best **200-treadwear** tires for autocross right now, who each one is for, and what they cost. 200-treadwear is the stickiest street-legal performance tire category and the minimum for many autocross classes.
 

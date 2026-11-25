@@ -87,7 +87,7 @@ The 350Z gives you a 3.5L V6, rear-wheel drive and a massive aftermarket for the
 Nothing beats the parts support of a Mustang. The 4.6L V8 in the New Edge (2001–2004) and S197 (2005–2010) GT is durable and simple, and you can find nearly any part at a local parts store.
 
 **Great for:** learning on a V8, drag strip fun, budget power
-**Watch for:** heavily modified or abused cars, rust on older examples, and worn suspension. The solid rear axle makes these less nimble than the others here, but they're cheap to make faster in a straight line.
+**Watch for:** heavily modified or abused cars, rust on older examples, and worn suspension. The solid rear axle makes these less nimble than the others here, but they're cheap to make faster in a straight line (our [turbo vs supercharger guide](/turbo-vs-supercharger/) covers the big power options). Fun fact: the Mustang is also the real car behind GTA's Dominator, which we break down in [GTA 6 cars in real life](/gta-6-muscle-cars-real-life/).
 
 ## 5. Honda Civic (EG/EK, 1992–2000): the FWD classic
 
@@ -102,6 +102,7 @@ Old Civics are light, reliable and almost endlessly swappable. They taught a who
 
 - **Lexus IS300 (2001–2005):** an inline-six and RWD with Toyota reliability. Great sleeper.
 - **Toyota 86 / Subaru BRZ:** modern, safe and well-balanced, but pricier than everything above.
+- **Honda S2000 (2000–2009):** a 9,000-rpm legend, but prices now sit well above beginner budgets. Our [S2000 AP1 vs AP2 guide](/s2000-ap1-vs-ap2/) covers what to look for.
 - **Nissan 240SX:** an icon, but the "drift tax" has pushed prices far past beginner-friendly.
 
 ## Cars to avoid as a first project

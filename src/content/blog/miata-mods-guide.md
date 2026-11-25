@@ -75,7 +75,7 @@ This is where you'll feel the biggest change after tires. Your options, from mil
 
 **Shocks and springs.** A matched set of quality shocks and lowering springs is the classic budget move. Flyin' Miata, for example, sells a Koni-based suspension package for the NB, and you can also shop <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Fsuspension%2Fbrands%2Fkoni" rel="sponsored nofollow noopener" target="_blank">Koni shocks</a> on their own.
 
-**Coilovers.** Adjustable ride height and damping. Great for track use, but quality matters. **A good shock-and-spring setup beats cheap no-name coilovers every time.**
+**Coilovers.** Adjustable ride height and damping. Great for track use, but quality matters. **A good shock-and-spring setup beats cheap no-name coilovers every time.** Our [coilovers vs lowering springs guide](/coilovers-vs-lowering-springs/) walks through the trade-offs and real prices.
 
 **Sway bars.** A bigger front bar (and sometimes rear) helps tune balance. Easy to install and cheap.
 
@@ -97,7 +97,7 @@ Here's the truth: **intakes and exhausts on a naturally aspirated Miata mostly a
 
 Real power gains come from:
 
-- **Forced induction** (turbo or supercharger kits) on NA/NB
+- **Forced induction** ([turbo or supercharger kits](/turbo-vs-supercharger/)) on NA/NB
 - **Engine swaps.** The aftermarket supports swaps into Miatas, but that's a big project, not a beginner mod.
 - **Tuning** on ND cars, which responds to tuning and supporting mods
 
