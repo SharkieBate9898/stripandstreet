@@ -13,6 +13,7 @@ Take the next unused topic from `content-plan.md` (once it exists) and mark it d
 - Fill in `title`, `description` (under 160 characters), `pubDate`, `category`, `tags`, `keyword` and 3–5 `faq` entries.
 - Check facts, specs and prices against current sources. Say "as of <month year>" for prices.
 - Link to 1–3 related Strip and Street posts.
+- Then add a link **to the new post** from 1–2 older related posts, in a sentence where it fits naturally (never a bare "related posts" list). Every post should have at least two other posts linking to it.
 - Affiliate links:
   - **Tire Rack (CJ, approved).** For tires, wheels, brakes and suspension Tire Rack sells, link straight to the product page with this deep link, writing it as raw HTML so it gets the right `rel`:
     `<a href="https://www.jdoqocy.com/click-101929748-15734228?url=ENCODED_TIRERACK_URL" rel="sponsored nofollow noopener" target="_blank">Product name</a>`
