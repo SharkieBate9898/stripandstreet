@@ -13,7 +13,11 @@ Take the next unused topic from `content-plan.md` (once it exists) and mark it d
 - Fill in `title`, `description` (under 160 characters), `pubDate`, `category`, `tags`, `keyword` and 3–5 `faq` entries.
 - Check facts, specs and prices against current sources. Say "as of <month year>" for prices.
 - Link to 1–3 related Strip and Street posts.
-- Affiliate link placeholders: `[Product name](#affiliate)` until a real link exists.
+- Affiliate links:
+  - **Tire Rack (CJ, approved).** For tires, wheels, brakes and suspension Tire Rack sells, link straight to the product page with this deep link, writing it as raw HTML so it gets the right `rel`:
+    `<a href="https://www.jdoqocy.com/click-101929748-15734228?url=ENCODED_TIRERACK_URL" rel="sponsored nofollow noopener" target="_blank">Product name</a>`
+    `ENCODED_TIRERACK_URL` is the URL-encoded Tire Rack page, e.g. `https%3A%2F%2Fwww.tirerack.com%2Ftires%2Ffalken-azenis-rt660-plus`. Tire pages follow `https://www.tirerack.com/tires/<make>-<model>` (lowercase, hyphens, `+` becomes `-plus`). Only link a product page you are confident exists; otherwise link the brand page `https://www.tirerack.com/tires/brands/<make>`.
+  - Everything else: placeholder `[Product name](#affiliate)` until a real program is approved.
 
 ## 3. Add a photo (required)
 1. Search Unsplash with the license filter set to free: `https://unsplash.com/s/photos/<search>?license=free&orientation=landscape`

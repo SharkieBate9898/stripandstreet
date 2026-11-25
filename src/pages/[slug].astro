@@ -21,7 +21,7 @@ const toc = headings.filter((h) => h.depth === 2);
 const more = related(post, all);
 const url = new URL(`/${post.id}/`, Astro.site).href;
 const body = post.body ?? '';
-const hasAffiliate = body.includes('(#affiliate') || /amzn\.to|amazon\.com\/|tag=/.test(body);
+const hasAffiliate = body.includes('(#affiliate') || /amzn\.to|amazon\.com\/|tag=|jdoqocy\.com|anrdoezrs\.net|dpbolvw\.net|kqzyfj\.com|tkqlhce\.com/.test(body);
 const image = d.heroImage ?? SITE.ogImage;
 
 const schema: object[] = [

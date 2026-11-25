@@ -30,11 +30,11 @@ This guide covers the best **200-treadwear** tires for autocross right now, who 
 
 | Tire | Best for | Typical price per tire |
 |---|---|---|
-| [Falken Azenis RT660+](#affiliate) | Best overall and best value | ~$140–$230 |
-| [Yokohama Advan A052](#affiliate) | Fastest in cool weather | ~$160–$260 |
-| [Bridgestone Potenza RE-71RS](#affiliate) | Mixed and wet conditions | ~$150–$340 |
-| [Nankang Sportnex CR-S](#affiliate) | Budget, dry-only | ~$150–$280 |
-| [Hoosier TrackAttack Pro](#affiliate) | Max pace, check your class rules | ~$300–$400+ |
+| <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Ftires%2Ffalken-azenis-rt660-plus" rel="sponsored nofollow noopener" target="_blank">Falken Azenis RT660+</a> | Best overall and best value | ~$140–$230 |
+| <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Ftires%2Fyokohama-advan-a052" rel="sponsored nofollow noopener" target="_blank">Yokohama Advan A052</a> | Fastest in cool weather | ~$160–$260 |
+| <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Ftires%2Fbridgestone-potenza-re-71rs" rel="sponsored nofollow noopener" target="_blank">Bridgestone Potenza RE-71RS</a> | Mixed and wet conditions | ~$150–$340 |
+| <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Ftires%2Fnankang-sportnex-cr-s" rel="sponsored nofollow noopener" target="_blank">Nankang Sportnex CR-S</a> | Budget, dry-only | ~$150–$280 |
+| <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Ftires%2Fhoosier-track-attack-pro" rel="sponsored nofollow noopener" target="_blank">Hoosier TrackAttack Pro</a> | Max pace, check your class rules | ~$300–$400+ |
 
 *Prices vary a lot by size. Check current pricing for your exact size before you buy.*
 
@@ -106,9 +106,9 @@ Once you're hooked, upgrading to a 200-treadwear tire is the single biggest step
 
 ## The bottom line
 
-- **Best overall:** [Falken Azenis RT660+](#affiliate)
-- **Fastest in cool weather:** [Yokohama Advan A052](#affiliate)
-- **Best in the wet:** [Bridgestone Potenza RE-71RS](#affiliate)
-- **Budget:** [Nankang Sportnex CR-S](#affiliate)
+- **Best overall:** <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Ftires%2Ffalken-azenis-rt660-plus" rel="sponsored nofollow noopener" target="_blank">Falken Azenis RT660+</a>
+- **Fastest in cool weather:** <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Ftires%2Fyokohama-advan-a052" rel="sponsored nofollow noopener" target="_blank">Yokohama Advan A052</a>
+- **Best in the wet:** <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Ftires%2Fbridgestone-potenza-re-71rs" rel="sponsored nofollow noopener" target="_blank">Bridgestone Potenza RE-71RS</a>
+- **Budget:** <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Ftires%2Fnankang-sportnex-cr-s" rel="sponsored nofollow noopener" target="_blank">Nankang Sportnex CR-S</a>
 
 New to the sport? Start with our guide to [the best project cars for beginners](/best-project-cars-for-beginners/), or see what to do first on a Miata in our [Miata mods guide](/miata-mods-guide/).
