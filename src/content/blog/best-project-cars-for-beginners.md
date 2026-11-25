@@ -44,7 +44,7 @@ Before the list, here's what we're judging on:
 **Don't spend your whole budget on the car.** Plan for 60–70% on the purchase and keep the rest for:
 
 - Fluids, filters, belts and spark plugs
-- A set of decent tires
+- A set of <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2F" rel="sponsored nofollow noopener" target="_blank">decent tires</a>
 - Brakes (pads, rotors, fluid)
 - The thing that breaks the first month (something always does)
 

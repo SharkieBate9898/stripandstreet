@@ -135,10 +135,10 @@ A few patterns:
 
 Even a clean S2000 deserves a refresh. Set aside money for:
 
-- A set of quality performance tires (see our [autocross tire guide](/best-autocross-tires/))
+- A set of quality <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Ftires%2Fsummer" rel="sponsored nofollow noopener" target="_blank">performance tires</a> (see our [autocross tire guide](/best-autocross-tires/))
 - An alignment
 - All fluids: oil, coolant, transmission, differential, brake
 - Spark plugs and a valve adjustment check
-- Brake pads and rotors if they're original or unknown
+- <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Fparts%2Fbrakes" rel="sponsored nofollow noopener" target="_blank">Brake pads and rotors</a> if they're original or unknown
 
 That baseline service turns a "nice used car" into a car you can actually trust at 9,000 rpm.

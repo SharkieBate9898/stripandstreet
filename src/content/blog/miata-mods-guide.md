@@ -53,17 +53,17 @@ A tired Miata with fresh fluids, bushings and shocks will feel like a new car.
 
 Tires are the single biggest upgrade you can make. Old, hard or cheap tires will make even a perfect suspension feel bad.
 
-- **For the street:** a quality max-performance summer tire in the stock size
+- **For the street:** a quality <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Ftires%2Fsummer" rel="sponsored nofollow noopener" target="_blank">max-performance summer tire</a> in the stock size
 - **For autocross and track days:** a 200-treadwear tire (see our [autocross tire guide](/best-autocross-tires/))
 - **Check the DOT date code.** Tires older than six or seven years should go no matter how much tread they have.
 
-**Wheels:** lighter wheels help, but buy them because you need a second set for track tires, not for looks alone. Classic Miata sizes are 14" and 15" on NA/NB; ND cars run 16" and 17".
+**Wheels:** <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Fwheels" rel="sponsored nofollow noopener" target="_blank">lighter wheels</a> help, but buy them because you need a second set for track tires, not for looks alone. Classic Miata sizes are 14" and 15" on NA/NB; ND cars run 16" and 17".
 
 ## Step 2: Brakes (pads, fluid and lines)
 
 You don't need a big brake kit on a Miata. Start with:
 
-- **Performance brake pads** matched to how you drive (street, autocross or track)
+- **<a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Fbrakes%2Fbrands%2Fhawk" rel="sponsored nofollow noopener" target="_blank">Performance brake pads</a>** matched to how you drive (street, autocross or track)
 - **High-temp brake fluid**, flushed regularly if you track the car
 - **Stainless brake lines** for a firmer pedal on older cars
 
@@ -73,7 +73,7 @@ That combo handles most track days on NA, NB and ND cars.
 
 This is where you'll feel the biggest change after tires. Your options, from mild to wild:
 
-**Shocks and springs.** A matched set of quality shocks and lowering springs is the classic budget move. Flyin' Miata, for example, sells a Koni-based suspension package for the NB.
+**Shocks and springs.** A matched set of quality shocks and lowering springs is the classic budget move. Flyin' Miata, for example, sells a Koni-based suspension package for the NB, and you can also shop <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Fsuspension%2Fbrands%2Fkoni" rel="sponsored nofollow noopener" target="_blank">Koni shocks</a> on their own.
 
 **Coilovers.** Adjustable ride height and damping. Great for track use, but quality matters. **A good shock-and-spring setup beats cheap no-name coilovers every time.**
 

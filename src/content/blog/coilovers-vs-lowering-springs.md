@@ -85,15 +85,15 @@ The big advantage is **control**. You can set ride height exactly where you want
 
 ## What it really costs (BRZ / FR-S / 86 example)
 
-Here's what common options cost for the 2013–2021 BRZ / FR-S / 86 from enthusiast retailers, **as of November 2026**. Prices move around with sales, so treat these as ballpark numbers.
+Here's what common options cost for the 2013–2021 BRZ / FR-S / 86 from enthusiast retailers, **as of November 2026**. Prices move around with sales, so treat these as ballpark numbers, and check the current price at the link before you buy.
 
 | Option | Type | Price (as of Nov 2026) | Notes |
 |---|---|---|---|
-| [Eibach Pro-Kit springs](#affiliate) | Lowering springs | $395 (Subimods) | Springs only, keep or replace shocks |
-| [Bilstein B12 Pro-Kit](#affiliate) | Springs + matched shocks | $1,269 on sale, $1,528 regular (FastScions) | Bilstein dampers with Eibach Pro-Kit springs. Listed drop about 1.0 in. front, 0.8 in. rear |
+| <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Fsuspension%2Fbrands%2Feibach" rel="sponsored nofollow noopener" target="_blank">Eibach Pro-Kit springs</a> | Lowering springs | $395 (Subimods) | Springs only, keep or replace shocks |
+| <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Fsuspension%2Fbrands%2Fbilstein" rel="sponsored nofollow noopener" target="_blank">Bilstein B12 Pro-Kit</a> | Springs + matched shocks | $1,269 on sale, $1,528 regular (FastScions) | Bilstein dampers with Eibach Pro-Kit springs. Listed drop about 1.0 in. front, 0.8 in. rear |
 | [Tein Flex Z](#affiliate) | Entry coilover | $1,007 (Subispeed, MSRP $1,180) | 16-way damping, 6 kg/mm (336 lb/in) springs, front drop up to 2.3 in. |
 | [BC Racing BR](#affiliate) | Entry coilover | $1,215–$1,325 (Subimods) | Monotube, 30-level damping, front camber plates, 8 kg/mm springs, 2-year warranty |
-| [KW V3](#affiliate) | Premium coilover | $3,099 (MAPerformance) | Separate compression and rebound adjustment |
+| <a href="https://www.jdoqocy.com/click-101929748-15734228?url=https%3A%2F%2Fwww.tirerack.com%2Fsuspension%2Fbrands%2Fkw" rel="sponsored nofollow noopener" target="_blank">KW V3</a> | Premium coilover | $3,099 (MAPerformance) | Separate compression and rebound adjustment |
 
 Then add the alignment. A 2026 pricing guide from Performance Plus Tire puts a four-wheel alignment for a mainstream car at $100–$175, but **$175–$350 for a lowered car**. Depending on the car and how low you go, you may also need parts like camber bolts or adjustable arms to get the alignment back in spec.
 
