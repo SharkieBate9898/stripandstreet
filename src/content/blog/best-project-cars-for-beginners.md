@@ -101,7 +101,7 @@ Old Civics are light, reliable and almost endlessly swappable. They taught a who
 ## Honorable mentions
 
 - **Lexus IS300 (2001–2005):** an inline-six and RWD with Toyota reliability. Great sleeper.
-- **Toyota 86 / Subaru BRZ:** modern, safe and well-balanced, but pricier than everything above.
+- **Toyota 86 / Subaru BRZ:** modern, safe and well-balanced, but pricier than everything above. If you're torn between one and a newer Miata, see our [BRZ vs Miata comparison](/brz-vs-miata/).
 - **Honda S2000 (2000–2009):** a 9,000-rpm legend, but prices now sit well above beginner budgets. Our [S2000 AP1 vs AP2 guide](/s2000-ap1-vs-ap2/) covers what to look for.
 - **Nissan 240SX:** an icon, but the "drift tax" has pushed prices far past beginner-friendly.
 

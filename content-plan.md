@@ -10,7 +10,6 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 
 | # | Post | Target search phrase | Category | Searches / difficulty |
 |---|---|---|---|---|
-| 4 | Subaru BRZ vs Mazda Miata: Which Sports Car Should You Buy? | brz vs miata | buyers-guides | 480 / 22 |
 | 4b | Do Cold Air Intakes Work? How Much Power They Really Add | what cold air intake do (+ "how much hp will a cold air intake add" 2,400 / 26) | gear-and-parts | 4,400 / 7 |
 | 5 | How to Do Your Own Brake Pads and Rotors | how to change brake pads and rotors | how-to | Not checked |
 | 6 | The History of Drifting: From Japanese Mountain Passes to Formula Drift | history of drifting | car-culture | Not checked |
@@ -74,6 +73,7 @@ Search numbers are Ubersuggest estimates (US monthly searches / difficulty 0–1
 
 | Post | Target search phrase | Category | Searches / difficulty |
 |---|---|---|---|
+| [Subaru BRZ vs Mazda Miata](/brz-vs-miata/) | brz vs miata | buyers-guides | 480 / 22 |
 | [GTA 6 Cars in Real Life: The Muscle Cars](/gta-6-muscle-cars-real-life/) | gta 6 cars | car-culture | 3,600 / 32 (pre-launch data) |
 | [Turbo vs Supercharger](/turbo-vs-supercharger/) | turbo vs supercharger | gear-and-parts | 8,100 / 16 |
 | [Best Project Cars for Beginners](/best-project-cars-for-beginners/) | best project cars for beginners | buyers-guides | 720 / 25 |

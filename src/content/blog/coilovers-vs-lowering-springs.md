@@ -26,7 +26,7 @@ Lowering is one of the first things people want to do to a car. It looks better,
 
 Short answer: lowering springs (with the right shocks) are the better street choice for most people, and coilovers make sense once you want adjustability for autocross, track days or a specific stance. The long answer depends on what you actually do with the car, so let's break it down.
 
-To keep the prices real, the examples below use one of the most common enthusiast cars out there: the **2013–2021 Subaru BRZ / Scion FR-S / Toyota 86**. The same logic applies to a Civic, a Miata, a Mustang or a 3 Series.
+To keep the prices real, the examples below use one of the most common enthusiast cars out there: the **2013–2021 Subaru BRZ / Scion FR-S / Toyota 86**. The same logic applies to a Civic, a Miata, a Mustang or a 3 Series. (Still deciding between a BRZ and a Miata in the first place? Here's [how they compare](/brz-vs-miata/).)
 
 ## What lowering springs actually do
 
