@@ -22,7 +22,8 @@
     "title": "Best First Project Cars for Beginners (2026 Prices)",
     "description": "The best first project cars for beginners: Miata, E46, 350Z, Mustang GT and Civic. Cheap to buy, easy to wrench on, with real 2026 prices.",
     "status": "live",
-    "publishedOn": "2026-11-26"
+    "publishedOn": "2026-11-26",
+    "photo": false
   },
   {
     "id": "best-project-cars-for-beginners-2",
@@ -41,7 +42,8 @@
     "title": "Project Car Budget Rule: Don't Spend It All on the Car",
     "description": "How to budget for your first project car: spend 60–70% on the purchase and save the rest for tires, brakes, fluids and surprise repairs.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "best-project-cars-for-beginners-3",
@@ -60,7 +62,8 @@
     "title": "5 Cheap Project Cars That Are Easy to Work On",
     "description": "Cheap project cars that are easy to work on and have huge parts support. The best picks for a first build, with what to watch for and 2026 prices.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": false
   },
   {
     "id": "na-vs-nb-miata-1",
@@ -69,8 +72,8 @@
     "style": "dark",
     "layout": "big",
     "kicker": "Miata Buyer's Guide",
-    "headline": "NA vs NB Miata: Which One Should You Buy?",
-    "accent": "NA vs NB",
+    "headline": "NA or NB Miata? The Honest Answer",
+    "accent": "NA or NB",
     "sub": "Pop-ups or a stiffer chassis? Engines, rust, problems and 2026 prices.",
     "items": [],
     "stat": null,
@@ -79,7 +82,8 @@
     "title": "NA vs NB Miata: Which One Should You Buy?",
     "description": "NA vs NB Mazda Miata compared: engines, handling, rust, common problems and what they actually cost in 2026.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "na-vs-nb-miata-2",
@@ -98,7 +102,8 @@
     "title": "NA and NB Miata Prices in 2026",
     "description": "What NA and NB Miatas sell for in 2026, from rough runners to clean drivers and low-mileage originals.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": false
   },
   {
     "id": "na-vs-nb-miata-3",
@@ -117,7 +122,8 @@
     "title": "NA or NB: How to Pick Your First Miata",
     "description": "Lighter and more raw, or more power and a stiffer chassis? How to choose between an NA and NB Miata for your first roadster.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "s2000-ap1-vs-ap2-1",
@@ -126,7 +132,7 @@
     "style": "dark",
     "layout": "big",
     "kicker": "Buyer's Guide",
-    "headline": "Honda S2000 AP1 vs AP2",
+    "headline": "AP1 vs AP2: Which S2000 Is Right for You?",
     "accent": "AP1 vs AP2",
     "sub": "2000–2003 vs 2004–2009: engines, handling, problems and prices.",
     "items": [],
@@ -136,7 +142,8 @@
     "title": "Honda S2000 AP1 vs AP2: Differences and Which to Buy",
     "description": "Honda S2000 AP1 (2000–2003) vs AP2 (2004–2009): engine, handling and year-by-year differences, common problems and 2026 prices.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "s2000-ap1-vs-ap2-2",
@@ -155,7 +162,8 @@
     "title": "Honda S2000 Prices in 2026",
     "description": "What Honda S2000s sell for in 2026, from high-mileage drivers to collector-grade cars, and what to budget after you buy.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": false
   },
   {
     "id": "s2000-ap1-vs-ap2-3",
@@ -180,7 +188,8 @@
     "title": "Honda S2000 Buyer's Checklist: What to Check",
     "description": "What to check before buying a Honda S2000: oil consumption, wheel bearings, AP2 gearbox issues, crash damage and old tires, plus 2026 prices.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "miata-mods-guide-1",
@@ -205,7 +214,8 @@
     "title": "Miata Mods Guide: Upgrades in the Right Order",
     "description": "The Miata mods that actually make a difference, in the right order: maintenance, tires, brakes, suspension, safety and power.",
     "status": "live",
-    "publishedOn": "2026-11-26"
+    "publishedOn": "2026-11-26",
+    "photo": false
   },
   {
     "id": "miata-mods-guide-2",
@@ -224,7 +234,8 @@
     "title": "Best First Mod for a Miata (It's Not What You Think)",
     "description": "The best first mod for any Miata is a set of good tires. Here's what to upgrade after that, from brakes to suspension to power.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "miata-mods-guide-3",
@@ -233,9 +244,9 @@
     "style": "light",
     "layout": "big",
     "kicker": "Save Your Money",
-    "headline": "Miata Mods We'd Skip",
-    "accent": "We'd Skip",
-    "sub": "The upgrades that look cool but don't make the car better.",
+    "headline": "Miata Mods That Waste Your Money",
+    "accent": "Waste Your Money",
+    "sub": "Cheap coilovers, chips and stretched tires. Here's what to buy instead.",
     "items": [],
     "stat": null,
     "statLabel": null,
@@ -243,7 +254,8 @@
     "title": "Miata Mods to Skip (and What to Buy Instead)",
     "description": "Miata mods that aren't worth it, and the upgrades that actually make NA, NB and ND Miatas faster and more fun.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": false
   },
   {
     "id": "best-autocross-tires-1",
@@ -268,7 +280,8 @@
     "title": "Best Autocross Tires for Street Cars (2026)",
     "description": "The best 200-treadwear autocross tires: Falken RT660+, Yokohama A052, Bridgestone RE-71RS and budget picks, with prices and who each is for.",
     "status": "live",
-    "publishedOn": "2026-11-26"
+    "publishedOn": "2026-11-26",
+    "photo": false
   },
   {
     "id": "best-autocross-tires-2",
@@ -287,7 +300,8 @@
     "title": "Why Tires Are the Best Autocross Upgrade",
     "description": "Tires are the biggest upgrade you can make for autocross. Here are the best 200-treadwear tires right now and who each one is for.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "best-autocross-tires-3",
@@ -296,8 +310,8 @@
     "style": "light",
     "layout": "big",
     "kicker": "Tire Showdown",
-    "headline": "RT660+ vs A052 vs RE-71RS",
-    "accent": "vs",
+    "headline": "RT660+, A052 or RE-71RS? Pick Your Tire",
+    "accent": "Pick Your Tire",
     "sub": "Which 200-treadwear tire fits your car, budget and climate.",
     "items": [],
     "stat": null,
@@ -306,7 +320,8 @@
     "title": "Falken RT660+ vs Yokohama A052 vs Bridgestone RE-71RS",
     "description": "Falken RT660+ vs Yokohama A052 vs Bridgestone RE-71RS: how the top autocross tires compare on grip, heat, wear and price.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": false
   },
   {
     "id": "first-autocross-1",
@@ -331,7 +346,8 @@
     "title": "Your First Autocross: What to Bring and What to Expect",
     "description": "Heading to your first autocross? What it costs, what to bring, how tech and the course walk work, and how to drive your first runs.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "first-autocross-2",
@@ -350,7 +366,8 @@
     "title": "How Much Does Autocross Cost?",
     "description": "What your first autocross costs in 2026: entry fees, weekend membership, helmets and what else to budget for.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": false
   },
   {
     "id": "first-autocross-3",
@@ -359,8 +376,8 @@
     "style": "red",
     "layout": "big",
     "kicker": "Setup Tip",
-    "headline": "The Only Setup Change Worth Making",
-    "accent": "Setup Change",
+    "headline": "The One Setup Change for Your First Autocross",
+    "accent": "One Setup Change",
     "sub": "Street tires roll over in hard corners. Start 10–15 psi above normal.",
     "items": [],
     "stat": null,
@@ -369,7 +386,8 @@
     "title": "Autocross Tire Pressure: The One Setup Change Worth Making",
     "description": "The easiest autocross setup change: tire pressure. Where to start for street tires, and how to drive your first runs.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "coilovers-vs-lowering-springs-1",
@@ -388,7 +406,8 @@
     "title": "Coilovers vs Lowering Springs: Which Should You Buy?",
     "description": "Coilovers or lowering springs? What each one does, what they really cost with shocks and alignment, and which makes sense for your car.",
     "status": "live",
-    "publishedOn": "2026-11-26"
+    "publishedOn": "2026-11-26",
+    "photo": false
   },
   {
     "id": "coilovers-vs-lowering-springs-2",
@@ -397,8 +416,8 @@
     "style": "light",
     "layout": "list",
     "kicker": "Real Prices",
-    "headline": "What Lowering Really Costs",
-    "accent": "Really Costs",
+    "headline": "Lowering Your Car? Here's the Real Cost",
+    "accent": "Real Cost",
     "sub": "BRZ / FR-S / 86 example, from springs to premium coilovers.",
     "items": [
       "Springs: about $395",
@@ -413,7 +432,8 @@
     "title": "What Coilovers and Lowering Springs Really Cost",
     "description": "Real prices for lowering a BRZ, FR-S or 86: springs, matched shocks, entry coilovers and premium coilovers, plus the alignment.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": false
   },
   {
     "id": "coilovers-vs-lowering-springs-3",
@@ -432,7 +452,8 @@
     "title": "Lowering Your Car? Don't Skip the Alignment",
     "description": "Lowering changes camber and toe. Why you need an alignment after springs or coilovers, what it costs and other mistakes to avoid.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "ls-swap-cost-1",
@@ -451,7 +472,8 @@
     "title": "How Much Does an LS Swap Cost? (2026 Budget)",
     "description": "What an LS swap really costs in 2026: engine, wiring, mounts, fuel, cooling and labor, with junkyard, mid-range and crate budgets.",
     "status": "live",
-    "publishedOn": "2026-11-26"
+    "publishedOn": "2026-11-26",
+    "photo": false
   },
   {
     "id": "ls-swap-cost-2",
@@ -470,7 +492,8 @@
     "title": "Junkyard LS Swap Cost: The Budget Build",
     "description": "What a budget junkyard 5.3 LS swap costs when you do the work yourself, plus the costs nobody puts in the budget.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": false
   },
   {
     "id": "ls-swap-cost-3",
@@ -495,7 +518,8 @@
     "title": "Hidden LS Swap Costs Nobody Budgets For",
     "description": "The LS swap costs people forget: wiring, fuel system, cooling, driveshaft and the small parts that add up. Plan your budget right.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "turbo-vs-supercharger-1",
@@ -504,8 +528,8 @@
     "style": "dark",
     "layout": "big",
     "kicker": "Forced Induction",
-    "headline": "Turbo vs Supercharger: Which Is Better?",
-    "accent": "Turbo vs Supercharger",
+    "headline": "Turbo or Supercharger? Pick the Right Boost",
+    "accent": "Right Boost",
     "sub": "How each makes boost, how they feel and what kits cost.",
     "items": [],
     "stat": null,
@@ -514,7 +538,8 @@
     "title": "Turbo vs Supercharger: Which Is Better for Your Build?",
     "description": "Turbo or supercharger? How each one makes boost, how they feel to drive, what bolt-on kits cost and which fits your car.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "turbo-vs-supercharger-2",
@@ -533,7 +558,8 @@
     "title": "How Much Does a Supercharger Kit Cost?",
     "description": "Real supercharger and turbo kit prices for popular cars, what gains they make and what else you need to upgrade.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": false
   },
   {
     "id": "turbo-vs-supercharger-3",
@@ -552,7 +578,8 @@
     "title": "Before You Add Boost: Fix These First",
     "description": "Adding a turbo or supercharger? Sort out suspension, brakes, tires and cooling first so the extra power is actually usable.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "gta-6-muscle-cars-real-life-1",
@@ -577,7 +604,8 @@
     "title": "GTA 6 Cars in Real Life: The Muscle Cars That Inspired Them",
     "description": "GTA 6's muscle cars side by side with the real Mustang, Challenger, Chevelle, Charger and Firebird they look inspired by.",
     "status": "live",
-    "publishedOn": "2026-11-26"
+    "publishedOn": "2026-11-26",
+    "photo": false
   },
   {
     "id": "gta-6-muscle-cars-real-life-2",
@@ -596,7 +624,8 @@
     "title": "What Real Car Is the Vapid Dominator in GTA 6?",
     "description": "The Vapid Dominator is GTA's Ford Mustang. See the real car, its specs and the other GTA 6 muscle cars and their real-life twins.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": true
   },
   {
     "id": "gta-6-muscle-cars-real-life-3",
@@ -615,6 +644,7 @@
     "title": "GTA 6 Muscle Cars vs Real Muscle Cars",
     "description": "GTA 6 muscle cars compared with the real Mustang, Challenger, Chevelle, Charger and Firebird, with real-world horsepower and history.",
     "status": "queued",
-    "publishedOn": null
+    "publishedOn": null,
+    "photo": false
   }
 ]
